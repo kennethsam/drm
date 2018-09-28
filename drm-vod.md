@@ -13,7 +13,7 @@ and make a  note of the below paramters
 
 | Parameter | Example  |
 |--------------------------|-------------------------------------------------------------------------------------------|
-| SPEKEServerURL |``` https://{hostname}.execute-api.us-east-1.amazonaws.com/EkeStage/copyProtection ``` |
+| SPEKEServerURL |``` https://u42i7z1iic.execute-api.us-west-2.amazonaws.com/EkeStage/copyProtection ``` |
 | MediaConvertSPEKERoleArn|``` arn:aws:iam::{AWS_ACCOUNT}:role/speke-reference-MediaPackageInvokeSPEKERole-{INSTANCE_ID} ``` |
 
 
@@ -38,7 +38,7 @@ and make a  note of the below paramters
   "headers": {
     "Accept": "*/*",
     "content-type": "application/xml",
-    "Host": "hostname.execute-api.us-east-1.amazonaws.com"
+    "Host": "u42i7z1iic.execute-api.us-west-2.amazonaws.com"
   },
   "requestContext": {
     "path": "/EkeStage/copyProtection",
